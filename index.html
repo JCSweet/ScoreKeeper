@@ -7,28 +7,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="flex-container">
-        <div id="grid-container">
-            <div id="header">
-              <h1>Score Keeper</h1>
-            </div>
-            <div id="score-container">
-              <div id="player1" class="score">
-                <h2>Player 1</h2>
-                <p id="p1Score">0</p>
-                <button id="p1ScoreBtn" class="scoreBtn">+1</button>
-              </div>
-              <div id="player2" class="score">
-                <h2>Player 2</h2>
-                <p id="p2Score">0</p>
-                <button id="p2ScoreBtn" class="scoreBtn">+1</button>      
-              </div>
-            </div>
-            <div id="options">
-              <button id="winConBtn" class="optionBtn">Options</button>
-              <button id="resetBtn" class="optionBtn">Reset</button>
-            </div>
+    <div id="container">
+      <div id="header">
+        <h1>Score Keeper</h1>
+      </div>
+      <div id="score-container">
+        <div id="player1" class="score">
+          <h2>Player 1</h2>
+          <p id="p1Score" class="scoreDisplay">0</p>
+          <div class="btnContainer">
+            <button id="p1ScoreBtnDown" class="scoreBtn">-1</button>
+            <button id="p1ScoreBtnUp" class="scoreBtn">+1</button>
           </div>
+        </div>
+        <div id="player2" class="score">
+          <h2>Player 2</h2>
+          <p id="p2Score" class="scoreDisplay">0</p>
+          <div class="btnContainer">
+            <button id="p2ScoreBtnDown" class="scoreBtn">-1</button>
+            <button id="p2ScoreBtnUp" class="scoreBtn">+1</button>
+          </div>
+        </div>
+      </div>
+      <div id="options" class="btnContainer">
+        <button id="winConBtn" class="optionBtn">Options</button>
+        <button id="resetBtn" class="optionBtn">Reset</button>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
