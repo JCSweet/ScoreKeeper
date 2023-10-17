@@ -29,8 +29,12 @@
           </div>
         </div>
       </div>
-      <div id="options" class="btnContainer">
-        <button id="winConBtn" class="optionBtn">Options</button>
+      <div id="options" class="optionBtnContainer">
+        <h2 id="winConText"></h2>
+        <select name="winCon" id="winConSelect" onchange="winConn(value)">
+          <option disabled selected>Winning Score</option>
+          <option value="">Infinite Play</option>
+        </select>
         <button id="resetBtn" class="optionBtn">Reset</button>
       </div>
     </div>
