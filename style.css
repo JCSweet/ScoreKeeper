@@ -18,6 +18,7 @@ p {
 }
 h1,
 button,
+select,
 #winConText {
   color: #333333;
 }
@@ -49,6 +50,7 @@ h2 {
   width: 40%;
   border-radius: 10px;
   color: whitesmoke;
+  max-width: 800px;
 }
 .scoreDisplay {
   font-size: 6em;
@@ -88,7 +90,7 @@ select {
   width: 11em;
 }
 .winner{
-    border: 10px whitesmoke solid !important;
+    border: 10px #22a39f solid !important;
 }
 @media (max-width: 600px) {
   body {
