@@ -101,7 +101,7 @@ select {
     margin: 5px;
   }
   .btnContainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 }
