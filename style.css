@@ -23,8 +23,8 @@ select,
   color: #333333;
 }
 h2 {
-    font-size: 2em;
-    line-height: 1.4em;
+  font-size: 2em;
+  line-height: 1.4em;
 }
 #score-container {
   display: flex;
@@ -50,7 +50,7 @@ h2 {
   width: 40%;
   border-radius: 10px;
   color: whitesmoke;
-  max-width: 800px;
+  max-width: 500px;
 }
 .scoreDisplay {
   font-size: 6em;
@@ -89,8 +89,8 @@ select {
   margin: 10px;
   width: 11em;
 }
-.winner{
-    border: 10px #22a39f solid !important;
+.winner {
+  border: 10px #22a39f solid !important;
 }
 @media (max-width: 600px) {
   body {
