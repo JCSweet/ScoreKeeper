@@ -5,6 +5,7 @@ body {
 }
 #container {
   margin: 20px;
+  touch-action: manipulation;
 }
 #header {
   text-align: center;
