@@ -88,7 +88,7 @@ resetBtn.addEventListener("click", () => {
   activeGame = true;
   p1.innerText = "Player 1";
   p2.innerText = "Player 2";
-  resetBtn.innerText = "Reset"
+  resetBtn.classList.remove("reset");
 });
 
 // Game Win
@@ -96,7 +96,7 @@ function win(p) {
   activeGame = false;
   let winMessage = `${p} wins!!!!`;
   h1.innerText = winMessage;
-  resetBtn.innerText = "↣↣↣ Reset ↢↢↢"
+  resetBtn.classList.add("reset");
   if (p === "Player 1") {
     p1.innerText = "👑 Player 1 👑";
     p1Box.classList.add("winner");
